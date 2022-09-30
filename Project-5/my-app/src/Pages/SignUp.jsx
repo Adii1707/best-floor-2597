@@ -9,10 +9,10 @@ const Signup = ()=>{
 
 return (
     <>
-     <Heading textAlign={"center"}>SIGN UP</Heading>
+     <Heading fontSize={20} textAlign={"center"} mt={4}>SIGN UP</Heading>
      <Center>
-     <Box mt = {18} w= {400}>
-<FormControl m ={20}>
+     <Box w= {400}>
+<FormControl m ={5}>
 <FormLabel>Name</FormLabel>
   <Input type='text' />
   <FormLabel>Phone Number</FormLabel>
@@ -22,7 +22,7 @@ return (
   <FormHelperText>We'll never share your email.</FormHelperText>
   <FormLabel>Password</FormLabel>
   <Input type='password' />
-  <Button bg="pink.500" mt={8} w={200}>SIGNUP</Button>
+  <Button bg="pink.500" ml={8} mt={8} w={200} alignItems="center">SIGNUP</Button>
 </FormControl>
 </Box>
      </Center>
