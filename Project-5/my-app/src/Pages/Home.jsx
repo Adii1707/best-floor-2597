@@ -19,7 +19,6 @@ const Home = ()=>{
 
           ]
 
-
     return (
         <>
         <Center>
@@ -69,6 +68,7 @@ const Home = ()=>{
         </Slide>
   
 {/* <Image h={500} w={"full"} src="https://logan.nnnow.com/content/dam/nnnow-project/15-sep-2022/Sephora_Homepagebanner_kajaldesktop.jpg" /> */}
+        
   
 <Center>
         <Flex w= "full" gap={31} boxShadow='lg' p='6' rounded='md' bg='white' >

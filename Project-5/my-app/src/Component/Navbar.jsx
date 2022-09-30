@@ -17,7 +17,8 @@ const Navbar = ()=>{
   <ButtonGroup gap='1' mr ={8}>
     <Link to= "/">Home</Link>
     <Link to="./Cart">Cart</Link>
-    <Link to="./Login" color="pink.100">Login</Link>
+    <Link to="./Login">Login</Link>
+ main
     <Link to= "./SignUp">Sign Up</Link>
   </ButtonGroup>
 </Flex>
