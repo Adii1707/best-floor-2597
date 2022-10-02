@@ -6,6 +6,8 @@ import 'react-slideshow-image/dist/styles.css';
 import { useState } from "react";
 import React from 'react';
 import { Slide } from 'react-slideshow-image';
+import "./slides.css";
+
 
 
 
@@ -19,30 +21,32 @@ const Home = ()=>{
 
           ]
 
+
     return (
         <>
         <Center>
         <Flex w= "full" gap={31} boxShadow='lg' p='6' rounded='md' bg='white' >
             
-            <Box ml={10}>
-               <Link> <Heading fontSize={20}>SALE</Heading></Link>
+            <Box ml={10} className= "box" >
+               <Link to="/Sale"> <Heading fontSize={20}>SALE</Heading></Link>
             </Box>
-            <Box ml={10}>
-                <Heading fontSize={20}>MAKEUP</Heading>
+            <Box ml={10} className="box">
+                <Link to="/MakeUp"><Heading fontSize={20}>MAKEUP</Heading></Link>
             </Box>
-            <Box ml={10}>
+            <Box className="box" ml={10}>
                 <Heading fontSize={20}>SKINCARE</Heading>
             </Box>
-            <Box ml={10}>
+            <Box className="box" ml={10}>
                 <Heading fontSize={20}>FRAGRANCE</Heading>
             </Box>
-            <Box ml={10}>
+            <Box className="box" ml={10}>
                 <Heading fontSize={20}>HAIRCARE</Heading>
             </Box>
-            <Box ml={10}>
+            <Box className="box" ml={10}  >
                 <Heading fontSize={20}>TOOLS & BRUSHES</Heading>
             </Box>
-            <Box ml={10}>
+            <Box className="box" ml={10}>
+
                 <Heading fontSize={20}>BRANDS</Heading>
             </Box>
         </Flex>
@@ -68,7 +72,7 @@ const Home = ()=>{
         </Slide>
   
 {/* <Image h={500} w={"full"} src="https://logan.nnnow.com/content/dam/nnnow-project/15-sep-2022/Sephora_Homepagebanner_kajaldesktop.jpg" /> */}
-        
+
   
 <Center>
         <Flex w= "full" gap={31} boxShadow='lg' p='6' rounded='md' bg='white' >
@@ -300,3 +304,4 @@ const Home = ()=>{
     )
 }
 export { Home };
+

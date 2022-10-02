@@ -12,3 +12,12 @@
     background: #efefef;
     text-align: center;
   }
+
+.box:hover {
+   
+    color: palevioletred;
+    align-items: center;
+    font-size: 30px;
+    cursor: pointer;
+   
+ }

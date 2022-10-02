@@ -3,6 +3,8 @@ import {Home} from "./Home";
 import Login from "./Login";
 import SignUp from "./SignUp";
 import Cart from "./Cart";
+import MakeUp from "./MakeUp";
+
 
 
 
@@ -15,6 +17,7 @@ const AllRoutes = ()=>{
             <Route path= "/Login" element= {<Login/>}></Route>
             <Route path= "/Cart" element= {<Cart/>}></Route>
             <Route path= "/SignUp" element= {<SignUp/>}></Route>
+            <Route path= "/MakeUp" element= {<MakeUp/>} ></Route>
         </Routes>
         </>
     )
