@@ -1,5 +1,6 @@
 import {Link} from "react-router-dom";
 import {  IconButton,Flex,ButtonGroup,Heading,Box,Spacer, Input, Text } from '@chakra-ui/react'
+
 import { SearchIcon } from "@chakra-ui/icons";
 
 const Navbar = ()=>{
@@ -19,6 +20,7 @@ const Navbar = ()=>{
     <Link to="./Cart"><Text color="pink.500">Cart</Text></Link>
     <Link to="./Login"><Text color="pink.500">Login</Text></Link>
     <Link to= "./SignUp"><Text color="pink.500">SignUp</Text></Link>
+
   </ButtonGroup>
 </Flex>
         </>

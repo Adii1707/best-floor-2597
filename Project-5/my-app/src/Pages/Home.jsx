@@ -10,6 +10,7 @@ import "./slides.css";
 
 
 
+
 const Home = ()=>{
     // const img = Example();
     const img1 = [
@@ -45,6 +46,7 @@ const Home = ()=>{
                 <Heading fontSize={20}>TOOLS & BRUSHES</Heading>
             </Box>
             <Box className="box" ml={10}>
+
                 <Heading fontSize={20}>BRANDS</Heading>
             </Box>
         </Flex>
@@ -70,6 +72,7 @@ const Home = ()=>{
         </Slide>
   
 {/* <Image h={500} w={"full"} src="https://logan.nnnow.com/content/dam/nnnow-project/15-sep-2022/Sephora_Homepagebanner_kajaldesktop.jpg" /> */}
+
   
 <Center>
         <Flex w= "full" gap={31} boxShadow='lg' p='6' rounded='md' bg='white' >
@@ -301,3 +304,4 @@ const Home = ()=>{
     )
 }
 export { Home };
+

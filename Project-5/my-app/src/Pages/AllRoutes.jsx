@@ -8,6 +8,7 @@ import MakeUp from "./MakeUp";
 
 
 
+
 const AllRoutes = ()=>{
     return (
         <>

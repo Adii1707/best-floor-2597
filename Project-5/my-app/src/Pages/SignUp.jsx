@@ -37,6 +37,7 @@ return (
      <Center>
      <Box w= {400}>
 <FormControl onSubmit={()=>handleclick} m ={5}>
+
 <FormLabel>Name</FormLabel>
   <Input type='text' name="name" value={name} onChange={handlechange} />
   <FormLabel >Phone Number</FormLabel>
@@ -47,6 +48,7 @@ return (
   <FormLabel>Password</FormLabel>
   <Input type='password' name="password" value={password} onChange={handlechange} />
   <Input type='submit' bg="pink.500" ml={8} mt={8} w={200} alignItems="center" />
+
 </FormControl>
 </Box>
      </Center>
