@@ -10,18 +10,14 @@ import {
   theme,
   Flex,
 } from '@chakra-ui/react';
-import { ColorModeSwitcher } from './ColorModeSwitcher';
-import { Logo } from './Logo';
-import Login from "./Pages/Login";
-import Signup from './Pages/SignUp';
+import Navbar from './Component/Navbar';
+import AllRoutes from "./Pages/AllRoutes";
 
 function App() {
   return (
     <ChakraProvider theme={theme}>
-    
-        <Signup/>
-        <Login />
-    
+       <Navbar/>
+       <AllRoutes />
     </ChakraProvider>
   );
 }
